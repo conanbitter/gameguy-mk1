@@ -1,4 +1,159 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Microchip_ATmega:ATmega328P-AU U?
+U 1 1 6118BE7F
+P 4700 3200
+F 0 "U?" H 4700 1611 50  0000 C CNN
+F 1 "ATmega328P-AU" H 4700 1520 50  0000 C CNN
+F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 4700 3200 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 4700 3200 50  0001 C CNN
+	1    4700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal Y?
+U 1 1 6118DD3D
+P 6050 3200
+F 0 "Y?" H 6050 3468 50  0000 C CNN
+F 1 "8MHz" H 6050 3377 50  0000 C CNN
+F 2 "" H 6050 3200 50  0001 C CNN
+F 3 "~" H 6050 3200 50  0001 C CNN
+	1    6050 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6118EC2D
+P 6600 3200
+F 0 "C?" H 6715 3246 50  0000 L CNN
+F 1 "22pF" H 6715 3155 50  0000 L CNN
+F 2 "" H 6638 3050 50  0001 C CNN
+F 3 "~" H 6600 3200 50  0001 C CNN
+	1    6600 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6118F3E6
+P 7150 3200
+F 0 "C?" H 7265 3246 50  0000 L CNN
+F 1 "22pF" H 7265 3155 50  0000 L CNN
+F 2 "" H 7188 3050 50  0001 C CNN
+F 3 "~" H 7150 3200 50  0001 C CNN
+	1    7150 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 6118FBA6
+P 6150 3750
+F 0 "C?" H 6268 3796 50  0000 L CNN
+F 1 "10uF" H 6268 3705 50  0000 L CNN
+F 2 "" H 6188 3600 50  0001 C CNN
+F 3 "~" H 6150 3750 50  0001 C CNN
+	1    6150 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 611906D9
+P 4600 1350
+F 0 "C?" H 4715 1396 50  0000 L CNN
+F 1 "0.1uF" H 4715 1305 50  0000 L CNN
+F 2 "" H 4638 1200 50  0001 C CNN
+F 3 "~" H 4600 1350 50  0001 C CNN
+	1    4600 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61190EC5
+P 5600 3250
+F 0 "R?" H 5670 3296 50  0000 L CNN
+F 1 "10k" H 5670 3205 50  0000 L CNN
+F 2 "" V 5530 3250 50  0001 C CNN
+F 3 "~" H 5600 3250 50  0001 C CNN
+	1    5600 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61191558
+P 5200 1350
+F 0 "C?" H 5315 1396 50  0000 L CNN
+F 1 "0.1uF" H 5315 1305 50  0000 L CNN
+F 2 "" H 5238 1200 50  0001 C CNN
+F 3 "~" H 5200 1350 50  0001 C CNN
+	1    5200 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61191C2E
+P 6250 4450
+F 0 "R?" H 6320 4496 50  0000 L CNN
+F 1 "330" H 6320 4405 50  0000 L CNN
+F 2 "" V 6180 4450 50  0001 C CNN
+F 3 "~" H 6250 4450 50  0001 C CNN
+	1    6250 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61193323
+P 5850 4450
+F 0 "D?" H 5843 4667 50  0000 C CNN
+F 1 "LED" H 5843 4576 50  0000 C CNN
+F 2 "" H 5850 4450 50  0001 C CNN
+F 3 "~" H 5850 4450 50  0001 C CNN
+	1    5850 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 6119393A
+P 7850 3800
+F 0 "BT?" H 7968 3896 50  0000 L CNN
+F 1 "Battery_Cell" H 7968 3805 50  0000 L CNN
+F 2 "" V 7850 3860 50  0001 C CNN
+F 3 "~" V 7850 3860 50  0001 C CNN
+	1    7850 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6119479D
+P 7150 4050
+F 0 "SW?" H 7150 4335 50  0000 C CNN
+F 1 "SW_Push" H 7150 4244 50  0000 C CNN
+F 2 "" H 7150 4250 50  0001 C CNN
+F 3 "~" H 7150 4250 50  0001 C CNN
+	1    7150 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AVR-ISP-6 J?
+U 1 1 61195A9E
+P 7800 5150
+F 0 "J?" H 7471 5246 50  0000 R CNN
+F 1 "AVR-ISP-6" H 7471 5155 50  0000 R CNN
+F 2 "" V 7550 5200 50  0001 C CNN
+F 3 " ~" H 6525 4600 50  0001 C CNN
+	1    7800 5150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
